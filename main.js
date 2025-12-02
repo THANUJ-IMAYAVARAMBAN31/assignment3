@@ -16,12 +16,10 @@ document.getElementById("blueBox").onclick = function() {
     resetBoxes();
     this.style.backgroundColor = "blue";
 };
-
 document.getElementById("greenBox").onclick = function() {
     resetBoxes();
     this.style.backgroundColor = "green";
 };
-
 document.getElementById("yellowBox").onclick = function() {
     resetBoxes();
     this.style.backgroundColor = "yellow";
