@@ -12,7 +12,6 @@ document.getElementById("redBox").onclick = function() {
     resetBoxes();
     this.style.backgroundColor = "red";
 };
-
 document.getElementById("blueBox").onclick = function() {
     resetBoxes();
     this.style.backgroundColor = "blue";
