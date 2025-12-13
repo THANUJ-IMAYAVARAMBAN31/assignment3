@@ -1,6 +1,8 @@
 document.getElementById("submit").onclick = function () {
     let username = document.getElementById("username").value;
-    document.getElementById("header").textContent = "Hello, " + username + "!";
+    document.getElementById("header").textContent =
+    "Hello" + ((username !== "") ? ", " : " ") + username;
+
 };
 function resetBoxes() {
     document.getElementById("redBox").style.backgroundColor = "white";
